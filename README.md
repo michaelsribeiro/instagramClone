@@ -6,7 +6,8 @@
 
   #### Desafio do Bootcamp HTML Web Developer da Digital Innovation One.
   O desafio tem como proposta replicar a página de login do instagram.</br>
-  Está sendo utilizado flexbox para o posicionamento dos elementos, também está disponível para dispositivos móveis.
+  Está sendo utilizado flexbox para o posicionamento dos elementos, 
+  também está disponível para dispositivos móveis.
   
   ![](https://img.shields.io/badge/autor-Michael%20Ribeiro-brightgreen)
   ![](https://img.shields.io/badge/Front--End-HTML5-brightgreen)
