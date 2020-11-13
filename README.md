@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./instaclone/images/logo.png" height="100px" alt="Instagram Clone"/>
+  <img src="./instagramclone/images/logo.png" height="100px" alt="Instagram Clone"/>
 </div>
 
 <div align="center">
