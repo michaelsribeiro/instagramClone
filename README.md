@@ -14,6 +14,11 @@
   ![](https://img.shields.io/badge/Front--End-CSS-brightgreen)
 </div> 
 
+<div align="center">
+  <img src="./instagramclone/images/desktop.png" height="100px"/>
+  <img src="./instagramclone/images/mobile.png" height="100px"/>
+</div>
+
 ## Recursos
 
 - **HTML 5** — Linguagem de Marcação utilizada para estruturar a página web
