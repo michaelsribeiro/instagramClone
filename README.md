@@ -15,8 +15,8 @@
 </div> 
 
 <div align="center">
-  <img src="./instagramclone/images/desktop.png" height="300px"/>
-  <img src="./instagramclone/images/mobile.png" height="300px"/>
+  <img src="./instagramclone/images/desktop.png" height="350px"/>
+  <img src="./instagramclone/images/mobile.png" height="350px"/>
 </div>
 
 ## Recursos
