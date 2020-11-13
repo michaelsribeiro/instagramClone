@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.content-wrapper{
+    max-width: 960px;
+    height: 100vh;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.phone-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: 10px;
+    max-width: 350px;
+    height: 30rem;
+}
+
+.group{
+    width: 100%;
+    padding: 1.3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    grid-gap: 20px;
+
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+}
+
+.group #logo{
+    width: 53.5%;
+    margin-top: 5px;
+}
+
+.profile-photo img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.instagram-login{
+    color: #fff;
+    background: #0095f6;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #0095f6;    
+}
+
+.group:nth-child(2){
+    padding: 1.8rem;
+    grid-gap: 8px;
+    color: #8e8e8e;
+    font-size: 13px;
+}
+
+.group span{
+    color: #0095f6;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.get-the-app{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+.get-app{
+    font-size: 13.5px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #262626;
+}
+
+.download{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.download-app{
+    width: 10rem;
+    height: 3rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.download-app:nth-child(1){
+    background-image: url('../images/app-store.png');
+}
+
+.download-app:nth-child(2){
+    background-image: url('../images/google-play.png');
+}
+
+footer{
+    width: 100%;
+}
+
+.menu-footer{
+    width: 100%;
+    height: 10vh;
+}
+
+.menu-footer ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-footer ul li{
+    padding: 20px 10px;
+}
+
+.menu-footer ul li a{
+    font-size: 11px;
+    color: #8e8e8e;
+}
+
+.copy{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.copy p{
+    padding: 0 10px;
+    font-size: 11px;
+    color: #8e8e8e;
+}
+
+/*======================== BREAKPOINTS ===========================*/
+
+@media (max-width:875px){
+    .content-wrapper{
+        height: 80vh;
+    }
+
+    .phone-image{
+        display: none;
+    }
+
+    .instagram-continue{
+        margin: 0 auto;
+    }
+
+    .menu-footer{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu-footer ul li{
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width:450px){
+    .group{
+        background-color: #fafafa;
+        border: none;
+    }
+}
