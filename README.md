@@ -4,8 +4,8 @@
 
 <div align="center">
 
-  #### Desafio do Bootcamp HTML Web Developer da Digital Innovation One.
-  O desafio tem como proposta replicar a página de login do instagram.</br>
+  #### Projeto do Bootcamp HTML Web Developer da Digital Innovation One.
+  O projeto tem como proposta replicar a página de login do instagram.</br>
   Está sendo utilizado flexbox para o posicionamento dos elementos, 
   também está disponível para dispositivos móveis.
   
